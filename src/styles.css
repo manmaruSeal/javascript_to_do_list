@@ -1,3 +1,75 @@
 body {
   font-family: sans-serif;
 }
+
+input {
+  /* 角をまるく！ */
+  border-radius: 8px;
+  /* 枠線消す！ */
+  border: none;
+  /*内側余白 (上下、左右) */
+  padding: 6px 16px;
+  /* 入力と枠が太くなるのをやめる */
+  outline: none;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  /*内側余白 (上下、左右) */
+  padding: 5px 16px;
+  margin-right: 5px;
+}
+
+/* ボタンにカーソルを当てたら… */
+button:hover {
+  background-color: rgb(230, 137, 168);
+  color: seashell;
+  /* カーソルの表示を変える */
+  cursor: pointer;
+}
+s p {
+  margin-right: 8px;
+}
+
+.input-area {
+  background-color: rgb(114, 161, 250);
+  width: 400px;
+  height: 30px;
+  /* inner blank */
+  padding: 8px;
+  /* outer blank */
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.non-completion-area {
+  background-color: rgb(250, 236, 109);
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+.completion-area {
+  background-color: rgb(168, 245, 168);
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: sienna;
+}
+
+.list-row {
+  /* 1行に並べる */
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+}

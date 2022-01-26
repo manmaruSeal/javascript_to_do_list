@@ -1,16 +1,39 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>TODO_JS</title>
+    <meta charset="UTF-8" />
+  </head>
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
+  <body>
+    <div class="input-area">
+      <input placeholder="input TODO!" 　 />
+      <button>add</button>
+    </div>
+    <div class="non-completion-area">
+      <p class="title">non-completion</p>
+      <ul>
+        <li>
+          <div class="list-row">
+            <p>dayo!</p>
+            <button>completion</button>
+            <button>delete</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="completion-area">
+      <p class="title">completion</p>
+      <ul>
+        <li>
+          <div class="list-row">
+            <p>desita!</p>
+            <button>back</button>
+          </div>
+        </li>
+      </ul>
+    </div>
 
-<body>
-	<div id="app"></div>
-
-	<script src="src/index.js">
-	</script>
-</body>
-
+    <script src="src/index.js"></script>
+  </body>
 </html>
