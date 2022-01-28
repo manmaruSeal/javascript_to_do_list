@@ -28,7 +28,7 @@ button:hover {
   /* カーソルの表示を変える */
   cursor: pointer;
 }
-s p {
+p {
   margin-right: 8px;
 }
 
@@ -71,5 +71,5 @@ s p {
   /* 1行に並べる */
   display: flex;
   align-items: center;
-  padding-bottom: 4px;
+  margin-bottom: -20px;
 }
