@@ -1,5 +1,6 @@
 import "./styles.css";
 
+// 入力スペースの値を取得して未完了リストに追加する関数へ渡す
 const onClickAdd = () => {
   // 入力した値の取得
   const inputText = document.getElementById("add-text").value;
